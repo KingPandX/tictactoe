@@ -83,7 +83,7 @@ function App() {
 
   return (
     <>
-      <Header turn={turn} clearTable={ClearTable} />
+      <Header turn={turn} clearTable={NewGame} />
       <div className='table'>
         {createTable()}
       </div>
